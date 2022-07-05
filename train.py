@@ -2,7 +2,7 @@ from __future__ import division
 from __future__ import print_function
 
 import time
-import tensorflow as tf
+import tensorflow.compat.vl as tf
 
 from sklearn import metrics
 from utils import *
